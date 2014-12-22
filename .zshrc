@@ -1,11 +1,11 @@
 export LANG=en_US.UTF-8
 
-source /usr/local/bin/virtualenvwrapper.sh
-source $HOME/.work_directories
+#source /usr/local/bin/virtualenvwrapper.sh
+#source $HOME/.work_directories
 
 
 # Path to your oh-my-zsh configuration.
-ZSH=$HOME/Work/others/oh-my-zsh
+ZSH=$HOME/Work/Personal/dotfiles/zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/

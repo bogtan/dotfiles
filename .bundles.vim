@@ -15,10 +15,12 @@ Bundle 'scrooloose/syntastic'
 Bundle 'majutsushi/tagbar'
 Bundle 'troydm/easybuffer.vim'
 Bundle 'jnurmine/Zenburn'
+Bundle 'altercation/vim-colors-solarized'
 Bundle 'mileszs/ack.vim'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'mattn/emmet-vim'
 Bundle 'Gundo'
+Bundle 'oblitum/rainbow'
  
 " lang specific
 Bundle "pangloss/vim-javascript"
