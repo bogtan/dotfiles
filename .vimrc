@@ -192,11 +192,17 @@
     au BufNewFile,BufRead *.md set filetype=markdown
     au BufNewFile,BufRead *.dtl set filetype=htmldjango
 
+
+    au bufenter * if exists(":RainbowParenthesesToggle") | RainbowParenthesesToggle | endif
+    au bufenter * if exists(":RainbowParenthesesToggle") | RainbowParenthesesToggle | endif
+    au bufenter * if exists(":RainbowParenthesesToggle") | RainbowParenthesesToggle | endif
+    au bufenter * if exists(":RainbowParenthesesToggle") | RainbowParenthesesToggle | endif
+
     " Rainbow Parens
-    au VimEnter * RainbowParenthesesToggle
-    au Syntax * RainbowParenthesesLoadRound
-    au Syntax * RainbowParenthesesLoadSquare
-    au Syntax * RainbowParenthesesLoadBraces
+    au VimEnter * if exists(":RainbowParenthesesToggle") | RainbowParenthesesToggle | endif
+    au Syntax * if exists(":RainbowParenthesesLoadRound") | RainbowParenthesesLoadRound | endif
+    au Syntax * if exists(":RainbowParenthesesLoadSquare") | RainbowParenthesesLoadSquare | endif
+    au Syntax * if exists(":RainbowParenthesesLoadBraces") | RainbowParenthesesLoadBraces | endif
 
 " }}}
 " GUI Settings {{{
